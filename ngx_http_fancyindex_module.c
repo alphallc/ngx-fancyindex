@@ -220,7 +220,7 @@ ngx_module_t  ngx_http_fancyindex_module = {
 static const ngx_str_t css_href_pre =
     ngx_string("<link rel=\"stylesheet\" href=\"");
 static const ngx_str_t css_href_post =
-    ngx_string("\" type=\"text/css\"/>\n");
+    ngx_string("\">\n");
 
 
 static uintptr_t
